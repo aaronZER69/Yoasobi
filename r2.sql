@@ -1,0 +1,1 @@
+INSERT INTO utilisateurs (email, mdp) VALUES ('aaron.zerrouk96@gmail.com', SHA2('pass', 256));
