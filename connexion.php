@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if ($user && password_verify($mdp, $user['mdp'])) {
             $_SESSION['utilisateur'] = $user['email'];
-            header('Location: yoasobi.html'); // Redirection vers la page principale
+            header('Location: index.html'); // Redirection vers la page principale
             exit;
         } else {
             $error = "Identifiants incorrects";
